@@ -1,2 +1,2 @@
 # Web-Development
-This is collections of coding on my journey in learning web-development!
+This is a collection of coding in my journey to learn web-development!
