@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Level-3</title>
+</head>
+  <body>
+    <form action="/server">
+      Choose your subjects:
+      <input type="checkbox" id="maths" name="subjects" value="Maths">
+        <label for="maths">maths</label>
+          <input type="checkbox" id="physics" name="subjects" value="Phy">
+          <label for="physics">physics</label>
+        <input type="checkbox" id="chemistry" name="subjects" value="Chem">
+      <label for="chemistry">chemistry</label>
+      
+      <hr>
+      <div>
+        Choose your favourite fruit:
+        <input type="radio" name="fruit" id="apple" value="Apple">
+          <label for="apple">Apple</label>
+            <input type="radio" name="fruit" id="orange" value="Orange">
+            <label for="orange">Orange</label>
+          <input type="radio" name="fruit" id="banana" value="Banana">
+        <label for="banana">Banana</label>
+      </div>
+
+      <hr>
+      <div>
+        Choose your profession:
+        <select name="profession" id="profession" placeholder="Choose your option">
+          <option >Select your option</option>
+           <option value="stu" selected>Student</option>
+          <option value="dev">Developer</option>
+        </select>  
+      </div>  
+
+      <hr>
+      <label for="volume">Select your Volume:</label>
+       <input type="range" min="0" max="100" name="Volume" step="10" value="60">
+
+       <hr>
+       <label for="feedback">Please provide your valuable feedback:</label>
+       <textarea id="feedback" name="feedback" rows="8" cols="16" placeholder="Write your feedback here"></textarea>
+       
+      
+      
+      <button>submit</button>
+    </form>
+    
+  </body>
+</html> 

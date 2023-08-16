@@ -1,0 +1,29 @@
+div {
+    height: 200px;
+    width: 500px;
+    color: black;
+    border-width: 5px;
+    border-style: groove;
+    border-color: turquoise;
+    background-color: plum;
+    margin: 60px 40px 20px;
+    padding-top: 15px;
+}
+
+h1 {
+   border-top: dashed black;
+   border-left: solid blue;
+   border-right: red;
+   border-bottom: dotted greenyellow;
+   border-radius: 18px;
+   text-align: center;
+   padding-top: 70px;
+   padding-bottom: 30px;
+}
+   
+button {
+    border: solid black;
+    padding: 0px 30px 0px 30pxpx;
+    background-color: pink;
+    
+}

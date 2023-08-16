@@ -1,0 +1,27 @@
+.card {
+    width: 400px;
+    height: 315px;
+    border: 1px solid blue;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px blueviolet;
+    transition: 2s;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.card:hover {
+    box-shadow: 2px 4px 20px red;
+}
+
+.desc {
+    padding: 0 2px 0 2px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+
+}
